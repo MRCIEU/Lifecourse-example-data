@@ -50,7 +50,8 @@ covs <- tibble(
     pc7 = rnorm(nid),
     pc8 = rnorm(nid),
     pc9 = rnorm(nid),
-    pc10 = rnorm(nid)
+    pc10 = rnorm(nid),
+    ancestry = sample(c("EUR", "EAS", "AFR"), nid, replace=T)
 )
 
 write.table(bmi, file=here("phenotype", "bmi.txt"), row=F, col=T, qu=F)

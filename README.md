@@ -12,7 +12,6 @@ renv::restore()
 
 ## Run
 
-
 ```r
 Rscript scripts/sim_phen.r
 ```
