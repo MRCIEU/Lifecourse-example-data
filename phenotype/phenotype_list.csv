@@ -1,0 +1,3 @@
+﻿Name,pheno_id,units,min,max
+Body Mass Index,bmi,kg/m2,0,100
+LDL cholesterol,ldl,mmol/L,0,200
