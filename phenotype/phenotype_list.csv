@@ -1,3 +1,4 @@
-﻿Name,pheno_id,units,min,max
-Body Mass Index,bmi,kg/m2,0,100
-LDL cholesterol,ldl,mmol/L,0,200
+﻿Name,pheno_id,var_type,units,min,max
+Body Mass Index,bmi,bin,kg/m2,0,75
+LDL cholesterol,ldl,cont,mmol/L,0,200
+HDL cholestrol,hdl,cont,mmol/L,0,200
